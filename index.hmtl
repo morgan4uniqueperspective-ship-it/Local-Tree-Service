@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arbour8 Tree Service | Tree Removal & Tree Trimming Surrey, Langley & Vancouver</title>
+  <meta name="description" content="Professional tree service in Surrey, Langley, Burnaby & Greater Vancouver. Certified arborists offering tree removal, tree trimming, pruning, stump grinding & emergency service.">
+  
+  <!-- SEO Keywords -->
+  <meta name="keywords" content="tree removal surrey, tree service vancouver, tree trimming langley, arborist burnaby, stump grinding, tree pruning, emergency tree removal, certified arborist">
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body class="bg-gray-50 font-sans">
+
+  <!-- Navigation -->
+  <nav class="bg-white shadow-sm sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
+      <div class="flex items-center gap-3">
+        <img src="logo.png" alt="Arbour8 Tree Service Logo" class="h-12">
+        <h1 class="text-3xl font-bold text-emerald-800">Arbour8</h1>
+      </div>
+      <a href="#contact" class="bg-emerald-700 text-white px-8 py-3 rounded-xl font-semibold hover:bg-emerald-800">Free Quote</a>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="h-screen bg-cover bg-center flex items-center text-white relative" style="background-image: url('https://images.unsplash.com/photo-1511497588682-4f1a6c3c3c3c');">
+    <div class="absolute inset-0 bg-black/50"></div>
+    <div class="max-w-5xl mx-auto px-6 text-center relative z-10">
+      <h1 class="text-5xl md:text-6xl font-bold mb-6">Expert Tree Removal &amp; Tree Service in Surrey, Langley &amp; Vancouver</h1>
+      <p class="text-2xl mb-10">Certified local arborists providing safe, reliable tree trimming, pruning, stump grinding and emergency tree removal.</p>
+      
+      <form id="heroForm" action="https://formspree.io/f/YOUR_FORM_ID_HERE" method="POST" class="max-w-lg mx-auto bg-white/95 text-gray-900 p-8 rounded-3xl shadow-2xl">
+        <input type="text" name="name" placeholder="Your Name" required class="w-full mb-4 px-5 py-4 border rounded-2xl">
+        <input type="email" name="_replyto" placeholder="Email" required class="w-full mb-4 px-5 py-4 border rounded-2xl">
+        <input type="tel" name="phone" placeholder="Phone" class="w-full mb-4 px-5 py-4 border rounded-2xl">
+        <textarea name="message" rows="4" placeholder="Tree removal, trimming or stump grinding needed?" required class="w-full mb-6 px-5 py-4 border rounded-2xl"></textarea>
+        <button type="submit" class="w-full bg-emerald-700 text-white py-5 rounded-2xl text-xl font-semibold hover:bg-emerald-800">Get Free Quote Today</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center mb-4">Professional Tree Services</h2>
+      <p class="text-center text-lg text-gray-600 mb-12">Tree Removal • Tree Trimming • Pruning • Stump Grinding • Emergency Service</p>
+      
+      <div class="grid md:grid-cols-3 gap-10">
+        <div class="text-center">
+          <img src="https://images.unsplash.com/photo-1511497588682-4f1a6c3c3c3c" alt="Tree Removal Surrey Langley Vancouver" class="rounded-3xl shadow-lg mx-auto h-64 object-cover">
+          <h3 class="text-2xl font-semibold mt-6">Tree Removal</h3>
+          <p class="mt-3">Safe removal of hazardous, dead or unwanted trees across Greater Vancouver.</p>
+        </div>
+        <div class="text-center">
+          <img src="https://images.unsplash.com/photo-1542601906990-b4d3a1f0b2a3" alt="Tree Trimming Pruning Arborist" class="rounded-3xl shadow-lg mx-auto h-64 object-cover">
+          <h3 class="text-2xl font-semibold mt-6">Tree Trimming &amp; Pruning</h3>
+          <p class="mt-3">Expert crown thinning, shaping and maintenance by certified arborists.</p>
+        </div>
+        <div class="text-center">
+          <img src="https://images.unsplash.com/photo-1585325701973-0c5c9f7d9f2e" alt="Stump Grinding Service" class="rounded-3xl shadow-lg mx-auto h-64 object-cover">
+          <h3 class="text-2xl font-semibold mt-6">Stump Grinding</h3>
+          <p class="mt-3">Complete stump removal and grinding for clean, safe properties.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-emerald-900 text-white py-12 text-center">
+    <img src="logo.png" alt="Arbour8 Tree Service" class="h-16 mx-auto mb-4">
+    <p class="text-xl">📧 Local.speedy.service4u@gmail.com</p>
+    <p class="mt-2">Serving Surrey, Langley, Burnaby, Vancouver &amp; surrounding areas • Licensed &amp; Insured</p>
+  </footer>
+
+</body>
+</html>
